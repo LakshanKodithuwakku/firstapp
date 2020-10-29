@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "240183827194",
+    "firebase_url": "https://pamo-61965.firebaseio.com",
+    "project_id": "pamo-61965",
+    "storage_bucket": "pamo-61965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240183827194:android:42116dddb583e5eec40743",
+        "android_client_info": {
+          "package_name": "com.example.pamodha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240183827194-2diohfclsc3simn8ctlueb8qjsm2acpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA5X5UQBXm7cS9K0K2zMh3IImz2nDxxUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240183827194-2diohfclsc3simn8ctlueb8qjsm2acpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
