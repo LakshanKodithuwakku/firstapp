@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
+import 'package:pamodha/Login.dart';
+import 'SignUp.dart';
 
 class Start extends StatefulWidget {
   @override
@@ -7,6 +9,16 @@ class Start extends StatefulWidget {
 }
 
 class _StartState extends State<Start> {
+
+  navigateToLogin()async{
+
+    Navigator.push(context, MaterialPageRoute(builder: (context)=> Login()));
+  }
+
+  navigateToRegister()async{
+
+    Navigator.push(context, MaterialPageRoute(builder: (context)=> SignUp()));
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,9 +69,9 @@ class _StartState extends State<Start> {
               children: <Widget>[
 
                 RaisedButton(
-                  padding: EdgeInsets.only(left: 30,right: 30),
+                  padding: EdgeInsets.only(left: 50,right: 50),
 
-                  onPressed: (){},
+                  onPressed: navigateToLogin,
                   child: Text('LOGIN',style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
@@ -78,7 +90,7 @@ class _StartState extends State<Start> {
                 RaisedButton(
                   padding: EdgeInsets.only(left: 30,right: 30),
 
-                  onPressed: (){},
+                  onPressed: navigateToRegister,
                   child: Text('REGISTER',style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pamodha/Start.dart';
-import 'Start.dart';
+import 'package:pamodha/HomePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,10 +9,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
             theme: ThemeData(
-              primaryColor: Colors.orange
+              primaryColor: Colors.blueAccent
             ),
             debugShowCheckedModeBanner: false,
-            home: Start(),
+            home: HomePage(),
 
          );
   }
